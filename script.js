@@ -19,7 +19,7 @@ btn.onclick = function() {
     const emailValue = email.value.trim();
     const ageValue = age.value.trim();
     const genderValue = gender.value.trim();
-    const messgaeValue = message.value.trim();
+    const messageValue = message.value.trim();
     
 
     if (nameValue !== '' && emailValue !== '' && ageValue !== '' && genderValue !== '' && messageValue !== '') {
