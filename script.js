@@ -26,7 +26,7 @@ btn.onclick = function() {
          localStorage.setItem('formData', `name: ${nameValue}, email: ${emailValue}, age: ${ageValue}, gender: ${genderValue}, are you gay? ${askValue}`);
          
         
-         window.location.href = 'index.html';
+         window.location.href = 'next.html';
     }
     else {
         result.textContent = `please fill up the form first`;
