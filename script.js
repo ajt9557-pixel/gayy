@@ -19,11 +19,12 @@ btn.onclick = function() {
     const emailValue = email.value.trim();
     const ageValue = age.value.trim();
     const genderValue = gender.value.trim();
-    const askValue = ask.value.trim();
+    const messgaeValue = message.value.trim();
+    
 
-    if (nameValue !== '' && emailValue !== '' && ageValue !== '' && genderValue !== '' && askValue !== '') {
+    if (nameValue !== '' && emailValue !== '' && ageValue !== '' && genderValue !== '' && messageValue !== '') {
          
-         localStorage.setItem('formData', `name: ${nameValue}, email: ${emailValue}, age: ${ageValue}, gender: ${genderValue}, are you gay? ${askValue}`);
+         localStorage.setItem('formData', `name: ${nameValue}, email: ${emailValue}, age: ${ageValue}, gender: ${genderValue}, message: ${messageValue}`);
          
         
          window.location.href = 'next.html';
